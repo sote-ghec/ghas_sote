@@ -1,0 +1,11 @@
+name: Github actions course
+
+on: push
+jobs:
+  print_hello:
+    runs-on: ubuntu-latest
+    steps:
+    -  name: Checkout repo
+       uses: actions/checkout@v4
+    - run: |
+        echo "This is cool running"
