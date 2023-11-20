@@ -3,7 +3,7 @@ name: Github actions course
 on: push
 jobs:
   print_hello:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20-04-4cores
     steps:
     -  name: Checkout repo
        uses: actions/checkout@v4
